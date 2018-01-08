@@ -12,9 +12,9 @@ import re
 import os
 from operator import itemgetter
 
-url = 'http://172.16.105.198/api_jsonrpc.php'
+url = 'http://172.16.1.1/api_jsonrpc.php'
 username = 'admin'
-password = 'sinazabbix'
+password = 'xxxxx'
 hostname = sys.argv[1] + '.lb.sinanode.com'
 
 class zbxapi:
